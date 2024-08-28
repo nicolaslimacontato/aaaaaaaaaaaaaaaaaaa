@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha de Personagem</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+
+<body class="bg-gray-100">
+    <form autocomplete="off" class="p-3 flex flex-col items-center box-content">
+        <!-- Cabeça -->
+        <div class="bg-no-repeat bg-cover w-[900px] h-[140px] flex items-center"
+            style="background-image: url('https://app.roll20.net/images/dndstyling/CharScroll.svg');">
+            <div class="w-[250px] ml-[60px]">
+                <input type="text" class="w-10/12 h-7 bg-[#f5f5f5] p-3 text-center mt-8"
+                    placeholder="Nome do Personagem">
+            </div>
+            <div class="ml-[70px] p-[10px] bg-cover w-[480px] h-[100px] flex items-center"
+                style="background-image: url('https://app.roll20.net/images/dndstyling/CharBox.svg'); background-position: 0;">
+                <div class="grid grid-cols-3 gap-x-2 gap-y-1 w-full">
+                    <input type="text" class="bg-[#f5f5f5] p-1 text-center text-xs h-7" placeholder="Raça">
+                    <input type="text" class="bg-[#f5f5f5] p-1 text-center text-xs h-7" placeholder="Classe">
+                    <input type="text" class="bg-[#f5f5f5] p-1 text-center text-xs h-7" placeholder="Nível">
+                    <input type="text" class="bg-[#f5f5f5] p-1 text-center text-xs h-7" placeholder="Antecedente">
+                    <input type="text" class="bg-[#f5f5f5] p-1 text-center text-xs h-7" placeholder="Alinhamento">
+                    <input type="text" class="bg-[#f5f5f5] p-1 text-center text-xs h-7" placeholder="XP">
+                </div>
+            </div>
+        </div>
+
+        <!-- Corpo -->
+        <div class="w-[720px] mt-[22px]">
+            <div class="inline-block align-top w-[32.97%]">
+                <!-- Atributos -->
+                <div class="mt-3 w-[70px] bg-repeat-y bg-cover align-top inline-block"
+                    style="background-image: url('https://app.roll20.net/images/dndstyling/ability-back.svg'); margin: 0 !important; height: 540px;">
+                    <!-- Força -->
+                    <div style="background-image: url('https://app.roll20.net/images/dndstyling/ability-STR.svg'); background-position: top center !important;"
+                        class="w-auto border-0 m-0 mt-[20px] bg-no-repeat bg-contain rounded relative pb-[10px] h-16 text-center">
+                        <button
+                            class="bg-transparent text-black border-none leading-3 w-full font-bold text-[7px] align-middle text-center m-0 p-0 mb-4">FORÇA</button>
+                        <span class="text-[35px] relative -top-[28px]">0</span>
+                        <div
+                            class="border-none bg-transparent -mt-6 w-10 h-5 rounded-[50%] z-10 absolute top-16 left-0 right-0 ml-auto mr-auto">
+                            <span>10</span>
+                        </div>
+                    </div>
+                    <!-- Destreza -->
+                    <div style="background-image: url('https://app.roll20.net/images/dndstyling/ability-DEX.svg'); background-position: top center !important;"
+                        class="w-auto border-0 m-0 mt-[20px] bg-no-repeat bg-contain rounded relative pb-[10px] h-16 text-center">
+                        <button
+                            class="bg-transparent text-black border-none leading-3 w-full font-bold text-[7px] align-middle text-center m-0 p-0 mb-4">DESTREZA</button>
+                        <span class="text-[35px] relative -top-[28px]">0</span>
+                        <div
+                            class="border-none bg-transparent -mt-6 w-10 h-5 rounded-[50%] z-10 absolute top-16 left-0 right-0 ml-auto mr-auto">
+                            <span>10</span>
+                        </div>
+                    </div>
+                    <!-- Constituição -->
+                    <div style="background-image: url('https://app.roll20.net/images/dndstyling/ability-DEX.svg'); background-position: top center !important;"
+                        class="w-auto border-0 m-0 mt-[20px] bg-no-repeat bg-contain rounded relative pb-[10px] h-16 text-center">
+                        <button
+                            class="bg-transparent text-black border-none leading-3 w-full font-bold text-[7px] align-middle text-center m-0 p-0 mb-4">Constituição</button>
+                        <span class="text-[35px] relative -top-[28px]">0</span>
+                        <div
+                            class="border-none bg-transparent -mt-6 w-10 h-5 rounded-[50%] z-10 absolute top-16 left-0 right-0 ml-auto mr-auto">
+                            <span>10</span>
+                        </div>
+                    </div>
+                    <!-- Inteligência -->
+                    <div style="background-image: url('https://app.roll20.net/images/dndstyling/ability-INT.svg'); background-position: top center !important;"
+                        class="w-auto border-0 m-0 mt-[20px] bg-no-repeat bg-contain rounded relative pb-[10px] h-16 text-center">
+                        <button
+                            class="bg-transparent text-black border-none leading-3 w-full font-bold text-[7px] align-middle text-center m-0 p-0 mb-4">INTELIGÊNCIA</button>
+                        <span class="text-[35px] relative -top-[28px]">0</span>
+                        <div
+                            class="border-none bg-transparent -mt-6 w-10 h-5 rounded-[50%] z-10 absolute top-16 left-0 right-0 ml-auto mr-auto">
+                            <span>10</span>
+                        </div>
+                    </div>
+                    <!-- Sabedoria -->
+                    <div style="background-image: url('https://app.roll20.net/images/dndstyling/ability-WIS.svg'); background-position: top center !important;"
+                        class="w-auto border-0 m-0 mt-[20px] bg-no-repeat bg-contain rounded relative pb-[10px] h-16 text-center">
+                        <button
+                            class="bg-transparent text-black border-none leading-3 w-full font-bold text-[7px] align-middle text-center m-0 p-0 mb-4">SABEDORIA</button>
+                        <span class="text-[35px] relative -top-[28px]">0</span>
+                        <div
+                            class="border-none bg-transparent -mt-6 w-10 h-5 rounded-[50%] z-10 absolute top-16 left-0 right-0 ml-auto mr-auto">
+                            <span>10</span>
+                        </div>
+                    </div>
+                    <!-- Carisma -->
+                    <div style="background-image: url('https://app.roll20.net/images/dndstyling/ability-CHA.svg'); background-position: top center !important;"
+                        class="w-auto border-0 m-0 mt-[20px] bg-no-repeat bg-contain rounded relative pb-[10px] h-16 text-center">
+                        <button
+                            class="bg-transparent text-black border-none leading-3 w-full font-bold text-[7px] align-middle text-center m-0 p-0 mb-4">CARISMA</button>
+                        <span class="text-[35px] relative -top-[28px]">0</span>
+                        <div
+                            class="border-none bg-transparent -mt-6 w-10 h-5 rounded-[50%] z-10 absolute top-16 left-0 right-0 ml-auto mr-auto">
+                            <span>10</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </form>
+</body>
+
+</html>
